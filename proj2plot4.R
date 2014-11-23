@@ -1,3 +1,5 @@
+##Question 4
+## Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
 ##Obtain SCC codes for coal combustion related surces using SCC.Level.Three variable
 
 coal.scc = SCC.DT[grep("Coal", SCC.Level.Three), SCC]
